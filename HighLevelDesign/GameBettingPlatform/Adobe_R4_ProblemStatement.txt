@@ -1,0 +1,4 @@
+We need to Design a Game betting platform where there are creators to create events of different categories like political sports game events. In each question of an event, there are users who can log in and access the platform and there are polls for each question(Yes, No , Maybe) on events of each categories and the users can place bets on the event and it is dynamic winning price for each poll based on the active users currently.
+On average there are 10M DAU. Not mentioned but need to handle wallet/ settlement of each user after the event ends of a category.
+
+Design such a system at scale.
