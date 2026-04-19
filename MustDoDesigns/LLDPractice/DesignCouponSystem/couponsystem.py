@@ -118,6 +118,7 @@ class DeliveryCouponStrategy(CouponStrategy):
             CouponType.DELIVERY,
             "Free 1-day delivery",
             datetime.now() + timedelta(days=5))
+
     def score(self, profile):
         return 70  #medium priority
 
